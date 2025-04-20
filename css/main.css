@@ -74,6 +74,10 @@ p {
 
 .sidebar-items {
     flex: 1;
+    overflow: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .sidebar-items nav {
@@ -93,7 +97,7 @@ p {
     gap: 10px;
     padding: 0 16px 0 20px;
     text-decoration: none;
-    color: var(--text-color-1);
+    color: var(--text-color-2);
     font-size: var(--text-default-size);
     position: relative;
     padding-left: 20px;
@@ -104,15 +108,15 @@ p {
     padding-bottom: 3px;
 }
 
-.sidebar-items nav li .collapsed i:last-child {
-    transform: rotate(270deg);
-}
-
 .sidebar-items nav li a i:last-child {
     position: absolute;
     right: 10px;
     transform: rotate(90deg);
     transition: all .2s;
+}
+
+.sidebar-items nav li .collapsed i:last-child {
+    transform: rotate(0deg);
 }
 
 .sidebar-items nav li a svg {
