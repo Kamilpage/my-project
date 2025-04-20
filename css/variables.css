@@ -1,0 +1,13 @@
+:root {
+    --main-bg: #081028;
+    --sidebar-bg-color: #081029;
+    --block-bg: #0B1739;
+    --text-color-1: #ffffff;
+    --text-color-2: #AEB9E1;
+    --text-head-size: 20px;
+    --text-title-size: 16px;
+    --text-default-size: 14px;
+    --text-small-size: 10px;
+    --sidebar-width: 300px;
+    --sidebar-item-heigth: 42px;
+  }
